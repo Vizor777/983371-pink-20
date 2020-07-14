@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Иван Волков](https://up.htmlacademy.ru/adaptive/20/user/983371).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Чимочихин] (https://github.com/omcg33).
 
 ---
 
