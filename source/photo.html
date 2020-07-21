@@ -8,7 +8,7 @@
   <header class="header">
     <div class="wrapper">
       <a href="index.html" class="logo-link"><img class="logo-link__img" src="https://via.placeholder.com/73x23" alt="Логотип приложения PINK"></a>
-      <button class="header__button"></button>
+      <button class="header__button" type="button" aria-label="Кнопка вызова-скрытия меню сайта"></button>
     </div>
     <div class="popup-menu">
       <ul class="popup-menu__list">
@@ -19,9 +19,9 @@
       </ul>
     </div>
   </header>
-  <main>
-    <h1 class="header__promo">Фотографии пользователей</h1>
-    <p>Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+  <main class="main">
+    <h1 class="main__promo">Фотографии пользователей</h1>
+    <p class="photos-promo">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
     <section class="photos-block">
       <h2>Блок с фотографиями и комментариями</h2>
       <ul class="photos-block__list">
@@ -100,11 +100,11 @@
           <div class="photo-editor__scale">
             <div class="photo-editor__bar"></div>
           </div>
-          <button type="button" class="photo-editor__range-toggle" aria-label="Ползунок редактирования фото">
+          <button class="photo-editor__range-toggle" type="button" aria-label="Ползунок редактирования фото">
           </button>
         </div>
         <a class="photo-editor__post-button" href="#">Запостить</a>
-        <button class="photo-editor__cancel-button">Отмена</button>
+        <button class="photo-editor__cancel-button" type="button">Отмена</button>
       </div>
     </section>
   </main>
