@@ -1,0 +1,46 @@
+.photos-block__item {
+  list-style-type: none;
+}
+.photos-block__list {
+  padding: 0;
+}
+.photos-block__user-photo {
+  display: block;
+  margin: 0 auto;
+}
+.photos-block__comment {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+.photos-block__name {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+.photos-block__time {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  color: #283645;
+}
+.photos-block__count-like {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #D22856;
+}
+.photos-block__text-wrap {
+  width: 260px;
+  background-color: #F2F2F2;
+}
