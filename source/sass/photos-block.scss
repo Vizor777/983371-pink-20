@@ -1,53 +1,50 @@
-.photos-block__item {
-  list-style-type: none;
-}
-
-.photos-block__list {
-  padding: 0;
-}
-
-.photos-block__user-photo {
-  display: block;
-  margin: 0 auto;
-}
-
-.photos-block__comment {
+.photos-block {
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #283645;
-}
 
-.photos-block__name {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: #283645;
-}
+  &__item {
+    list-style-type: none;
+  }
 
-.photos-block__time {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 24px;
-  color: #283645;
-}
+  &__list {
+    padding: 0;
+  }
 
-.photos-block__count-like {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 24px;
-  color: #d22856;
-}
+  &__user-photo {
+    display: block;
+    margin: 0 auto;
+  }
 
-.photos-block__text-wrap {
-  width: 260px;
-  background-color: #f2f2f2;
+  &__comment {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #283645;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #283645;
+  }
+
+  &__time {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    color: #283645;
+  }
+
+  &__count-like {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: #d22856;
+  }
+
+  &__text-wrap {
+    width: 260px;
+    background-color: #f2f2f2;
+  }
 }
