@@ -3,18 +3,18 @@
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   color: white;
+}
 
-  &__down-link {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 18px;
-    text-decoration: none;
-    color: white;
-  }
+.download-info__down-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+  color: white;
+}
 
-  &__description {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 24px;
-  }
+.download-info__description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
 }

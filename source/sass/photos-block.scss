@@ -1,50 +1,50 @@
 .photos-block {
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
+}
 
-  &__item {
-    list-style-type: none;
-  }
+.photos-block__item {
+  list-style-type: none;
+}
 
-  &__list {
-    padding: 0;
-  }
+.photos-block__list {
+  padding: 0;
+}
 
-  &__user-photo {
-    display: block;
-    margin: 0 auto;
-  }
+.photos-block__user-photo {
+  display: block;
+  margin: 0 auto;
+}
 
-  &__comment {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #283645;
-  }
+.photos-block__comment {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
 
-  &__name {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    color: #283645;
-  }
+.photos-block__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
 
-  &__time {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 24px;
-    color: #283645;
-  }
+.photos-block__time {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  color: #283645;
+}
 
-  &__count-like {
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 24px;
-    color: #d22856;
-  }
+.photos-block__count-like {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: #d22856;
+}
 
-  &__text-wrap {
-    width: 260px;
-    background-color: #f2f2f2;
-  }
+.photos-block__text-wrap {
+  width: 260px;
+  background-color: #f2f2f2;
 }
