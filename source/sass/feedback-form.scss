@@ -1,0 +1,48 @@
+.feedback-form {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+}
+
+.feedback-form__legend {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #D22856;
+  text-transform: uppercase;
+}
+
+.feedback-form__label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #D22856;
+  text-transform: uppercase;
+}
+
+.feedback-form__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+}
+
+.feedback-form__item {
+  list-style-type: none;
+}
+
+.feedback-form__button {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #283645;
+}
+
+.feedback-form__wrapper {
+  background-color: #F2F2F2;
+}
+
+.feedback-form__field {
+  border: 0;
+}

@@ -33,92 +33,96 @@
     <div class="main__promo-wrapper container">
       <h1 class="main__promo">Конкурс на самое безбашенное путешествие с Пинк</h1>
     </div>
-    <p class="feedback-promo">Поделитесь своей историей и
+    <p class="feedback-promo container">Поделитесь своей историей и
       получите шанс выиграть ценный приз — 1000
       миль на вашу бонусную карту!</p>
-    <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-      <fieldset>
-        <legend>Ваше ФИО</legend>
-        <ul>
-          <li>
+    <form class="feedback-form container" action="https://echo.htmlacademy.ru" method="post">
+      <fieldset class="feedback-form__field">
+        <legend class="visually-hidden">Ваше ФИО</legend>
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item">
             <label class="feedback-form__label" for="second-name">Фамилия:</label>
             <input class="feedback-form__text" type="text" id="second-name" placeholder="Укажите фамилию *" name="second-name">
           </li>
-          <li>
+          <li class="feedback-form__item">
             <label class="feedback-form__label" for="name">Имя:</label>
             <input class="feedback-form__text" type="text" id="name" placeholder="Введите ваше имя *" name="name">
           </li>
-          <li>
+          <li class="feedback-form__item">
             <label  class="feedback-form__label" for="patronymic">Отчество:</label>
             <input class="feedback-form__text"  type="text" id="patronymic" placeholder="Ну и отчество тоже" name="patronymic">
           </li>
         </ul>
       </fieldset>
-      <fieldset>
-        <legend class="feedback-form__legend">Ваши безбашенные достижения в путешествии</legend>
-        <ul>
-          <li>
-            <label class="feedback-form__label" for="selfie">Сделал селфи с акулой</label>
-            <input class="feedback-form__check" id="selfie" type="checkbox" name="selfie">
-          </li>
-          <li>
-            <label class="feedback-form__label" for="burned-on">Обгорел на пляже</label>
-            <input class="feedback-form__check" id="burned-on" type="checkbox" name="burned-on">
-          </li>
-          <li>
-            <label class="feedback-form__label" for="saw-ChuckNorris">Видел Чака Норриса</label>
-            <input class="feedback-form__check" id="saw-ChuckNorris" type="checkbox" name="saw-ChuckNorris">
-          </li>
-          <li>
-            <label class="feedback-form__label" for="bought-souvenirs">Накупил сувениров</label>
-            <input class="feedback-form__check" id="bought-souvenirs" type="checkbox" name="bought-souvenirs">
-          </li>
-          <li>
-            <label class="feedback-form__label" for="held-tower">Удержал башню</label>
-            <input class="feedback-form__check" id="held-tower" type="checkbox" name="held-tower">
-          </li>
-          <li>
-            <label class="feedback-form__label" for="trashed-hotel">Разгромил отель</label>
-            <input class="feedback-form__check" id="trashed-hotel" type="checkbox" name="trashed-hotel">
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset>
-        <legend class="feedback-form__legend">Ваш номер телефоан и электронная почта</legend>
-        <ul>
-          <li>
+      <div class="feedback-form__wrapper">
+        <fieldset class="feedback-form__field">
+          <legend class="feedback-form__legend">Ваши безбашенные достижения в путешествии</legend>
+          <ul class="feedback-form__list">
+            <li class="feedback-form__item">
+              <label class="feedback-form__label-check" for="selfie">Сделал селфи с акулой</label>
+              <input class="feedback-form__check" id="selfie" type="checkbox" name="selfie">
+            </li>
+            <li class="feedback-form__item">
+              <label class="feedback-form__label-check" for="burned-on">Обгорел на пляже</label>
+              <input class="feedback-form__check" id="burned-on" type="checkbox" name="burned-on">
+            </li>
+            <li class="feedback-form__item">
+              <label class="feedback-form__label-check" for="saw-ChuckNorris">Видел Чака Норриса</label>
+              <input class="feedback-form__check" id="saw-ChuckNorris" type="checkbox" name="saw-ChuckNorris">
+            </li>
+            <li class="feedback-form__item">
+              <label class="feedback-form__label-check" for="bought-souvenirs">Накупил сувениров</label>
+              <input class="feedback-form__check" id="bought-souvenirs" type="checkbox" name="bought-souvenirs">
+            </li>
+            <li class="feedback-form__item">
+              <label class="feedback-form__label-check" for="held-tower">Удержал башню</label>
+              <input class="feedback-form__check" id="held-tower" type="checkbox" name="held-tower">
+            </li>
+            <li class="feedback-form__item">
+              <label class="feedback-form__label-check" for="trashed-hotel">Разгромил отель</label>
+              <input class="feedback-form__check" id="trashed-hotel" type="checkbox" name="trashed-hotel">
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+      <fieldset class="feedback-form__field">
+        <legend class="visually-hidden">Ваш номер телефоан и электронная почта</legend>
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item">
             <label class="feedback-form__label" for="phone-number">Номер телефона</label>
             <input class="feedback-form__text" type="text" id="phone-number" placeholder="Номер, пожалуйста" name="phone-number">
           </li>
-          <li>
+          <li class="feedback-form__item">
             <label class="feedback-form__label" for="mail-adress">Адрес почты</label>
             <input class="feedback-form__text" type="text" id="mail-adress" placeholder="Введите почту *" name="mail-adress">
           </li>
         </ul>
       </fieldset>
-      <fieldset>
-        <legend class="feedback-form__legend">С каким приложением путешествовали?</legend>
-        <ul>
-          <li>
-            <label for="iOS">Pink для iOS</label>
-            <input class="feedback-form__radio" id="iOS" type="radio" name="platform">
-          </li>
-          <li>
-            <label for="Android">Pink на Android</label>
-            <input class="feedback-form__radio" id="Android" type="radio" name="platform">
-          </li>
-          <li>
-            <label for="Windows">Windows Phone</label>
-            <input id="Windows" type="radio" name="platform">
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset>
+      <div class="feedback-form__wrapper">
+        <fieldset class="feedback-form__field">
+          <legend class="feedback-form__legend">С каким приложением путешествовали?</legend>
+          <ul class="feedback-form__list">
+            <li class="feedback-form__item">
+              <label for="iOS">Pink для iOS</label>
+              <input class="feedback-form__radio" id="iOS" type="radio" name="platform">
+            </li>
+            <li class="feedback-form__item">
+              <label for="Android">Pink на Android</label>
+              <input class="feedback-form__radio" id="Android" type="radio" name="platform">
+            </li>
+            <li class="feedback-form__item">
+              <label for="Windows">Windows Phone</label>
+              <input id="Windows" type="radio" name="platform">
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+      <fieldset class="feedback-form__field">
         <legend class="feedback-form__legend">Опишите свои эмоции</legend>
         <textarea  class="feedback-form__comment" cols="30" rows="10" placeholder="Можно прям в красках, не стесняясь в выражениях" name="content-letter"></textarea>
       </fieldset>
       <button class="feedback-form__button" type="submit">Отправить форму</button>
-      <p class="feedback-form__note"><span>*</span> — обязательные поля</p>
+      <p class="feedback-form__note"><span class="feedback-form__legend">*</span> — обязательные поля</p>
     </form>
   </main>
   <footer class="footer container">

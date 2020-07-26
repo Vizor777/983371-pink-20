@@ -1,0 +1,36 @@
+.tariff-block__wrapper {
+  background: #283645;
+  border: 2px solid #283645;
+  border-radius: 1px 0px 0px 0px;
+}
+
+.tariff-block__header {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.tariff-block__price {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.tariff-block__list {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #283645;
+  text-transform: uppercase;
+  list-style-type: none;
+}
