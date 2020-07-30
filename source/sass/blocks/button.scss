@@ -1,0 +1,35 @@
+.button {
+  font-family: $main-font;
+  font-style: normal;
+  text-decoration: none;
+
+  &--download-link {
+    font-weight: $weight-bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: $white;
+  }
+
+  &--feedback {
+    font-weight: $weight-normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: $granite;
+    text-transform: uppercase;
+  }
+
+  &--post-button {
+    font-weight: $weight-bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: $granite;
+  }
+
+  &--cancel-button {
+    font-weight: $weight-bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: $granite;
+    opacity: 0.1;
+  }
+}

@@ -1,39 +1,39 @@
 .form {
   &--feedback {
-    font-family: "Open Sans", "Arial", sans-serif;
+    font-family: $main-font;
     font-style: normal;
   }
 }
 
 .form__wrapper {
-  background-color: #f2f2f2;
+  background-color: $smoky-white;
 }
 
 .form__legend--feedback {
-  font-weight: normal;
+  font-weight: $weight-normal;
   font-size: 14px;
   line-height: 18px;
-  color: #d22856;
+  color: $red;
   text-transform: uppercase;
 }
 
 .form__label {
-  font-weight: normal;
+  font-weight: $weight-normal;
   font-size: 14px;
   line-height: 30px;
 
   &--feedback {
-    color: #d22856;
+    color: $red;
     text-transform: uppercase;
   }
 
   &--feedback-text {
-    color: #283645;
+    color: $granite;
   }
 
   &--feedback-check {
     font-size: 18px;
-    color: #283645;
+    color: $granite;
   }
 }
 
@@ -42,31 +42,21 @@
 }
 
 .form__input--feedback-text {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
-  font-weight: normal;
+  font-weight: $weight-normal;
   font-size: 18px;
   line-height: 30px;
-  color: #283645;
+  color: $granite;
 }
 
 .form__textarea--feedback {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
-  font-weight: normal;
+  font-weight: $weight-normal;
   font-size: 18px;
   line-height: 30px;
-  color: #283645;
-}
-
-.form__button--feedback {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  color: #283645;
-  text-transform: uppercase;
+  color: $granite;
 }
 
 .form__fieldset {
@@ -79,12 +69,12 @@
   text-transform: uppercase;
 
   &--feedback {
-    color: #283645;
+    color: $granite;
   }
 }
 
 .form__footnote {
   &--feedback {
-    color: #d22856;
+    color: $red;
   }
 }

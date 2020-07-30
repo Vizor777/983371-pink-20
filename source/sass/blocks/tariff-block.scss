@@ -1,35 +1,35 @@
 .tariff-block__wrapper {
-  background: #283645;
-  border: 2px solid #283645;
+  background: $granite;
+  border: 2px solid $granite;
 }
 
 .tariff-block__header {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
-  font-weight: bold;
+  font-weight: $weight-bold;
   font-size: 16px;
   line-height: 30px;
-  color: #ffffff;
+  color: $white;
   text-transform: uppercase;
 }
 
 .tariff-block__price {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
-  font-weight: 300;
+  font-weight: $weight-light;
   font-size: 18px;
   line-height: 30px;
-  color: #ffffff;
+  color: $white;
   text-transform: uppercase;
 }
 
 .tariff-block__list {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
-  font-weight: normal;
+  font-weight: $weight-normal;
   font-size: 14px;
   line-height: 30px;
-  color: #283645;
+  color: $granite;
   text-transform: uppercase;
   list-style-type: none;
 }
