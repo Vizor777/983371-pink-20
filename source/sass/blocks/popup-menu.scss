@@ -1,5 +1,5 @@
 .popup-menu {
-  background-color: #283645;
+  background-color: $granite;
 }
 
 .popup-menu__item {
@@ -8,11 +8,11 @@
 
 .popup-menu__link {
   text-decoration: none;
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
-  color: white;
+  color: $white;
   text-transform: uppercase;
 }

@@ -1,0 +1,80 @@
+.form {
+  &--feedback {
+    font-family: $main-font;
+    font-style: normal;
+  }
+}
+
+.form__wrapper {
+  background-color: $smoky-white;
+}
+
+.form__legend--feedback {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: $red;
+  text-transform: uppercase;
+}
+
+.form__label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+
+  &--feedback {
+    color: $red;
+    text-transform: uppercase;
+  }
+
+  &--feedback-text {
+    color: $granite;
+  }
+
+  &--feedback-check {
+    font-size: 18px;
+    color: $granite;
+  }
+}
+
+.form__item {
+  list-style-type: none;
+}
+
+.form__input--feedback-text {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: $granite;
+}
+
+.form__textarea--feedback {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: $granite;
+}
+
+.form__fieldset {
+  border: 0;
+}
+
+.form__note {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  &--feedback {
+    color: $granite;
+  }
+}
+
+.form__footnote {
+  &--feedback {
+    color: $red;
+  }
+}

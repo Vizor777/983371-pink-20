@@ -1,5 +1,5 @@
 .photos-block {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: $main-font;
   font-style: normal;
 }
 
@@ -17,34 +17,34 @@
 }
 
 .photos-block__comment {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #283645;
+  color: $granite;
 }
 
 .photos-block__name {
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #283645;
+  color: $granite;
 }
 
 .photos-block__time {
   font-weight: 300;
   font-size: 12px;
   line-height: 24px;
-  color: #283645;
+  color: $granite;
 }
 
 .photos-block__count-like {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  color: #d22856;
+  color: $red;
 }
 
 .photos-block__text-wrap {
   width: 260px;
-  background-color: #f2f2f2;
+  background-color: $smoky-white;
 }
