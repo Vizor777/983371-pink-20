@@ -6,7 +6,7 @@
 .tariff-block__header {
   font-family: $main-font;
   font-style: normal;
-  font-weight: $weight-bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   color: $white;
@@ -16,7 +16,7 @@
 .tariff-block__price {
   font-family: $main-font;
   font-style: normal;
-  font-weight: $weight-light;
+  font-weight: 300;
   font-size: 18px;
   line-height: 30px;
   color: $white;
@@ -26,7 +26,7 @@
 .tariff-block__list {
   font-family: $main-font;
   font-style: normal;
-  font-weight: $weight-normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 30px;
   color: $granite;

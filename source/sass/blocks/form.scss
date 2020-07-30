@@ -10,7 +10,7 @@
 }
 
 .form__legend--feedback {
-  font-weight: $weight-normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: $red;
@@ -18,7 +18,7 @@
 }
 
 .form__label {
-  font-weight: $weight-normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 30px;
 
@@ -44,7 +44,7 @@
 .form__input--feedback-text {
   font-family: $main-font;
   font-style: normal;
-  font-weight: $weight-normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: $granite;
@@ -53,7 +53,7 @@
 .form__textarea--feedback {
   font-family: $main-font;
   font-style: normal;
-  font-weight: $weight-normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: $granite;
