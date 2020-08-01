@@ -2,6 +2,12 @@
   background-color: $granite;
 }
 
+.popup-menu__list  {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}
+
 .popup-menu__item {
   list-style-type: none;
 }
@@ -16,3 +22,4 @@
   color: $white;
   text-transform: uppercase;
 }
+

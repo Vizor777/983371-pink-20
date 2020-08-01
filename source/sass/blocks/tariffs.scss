@@ -1,0 +1,11 @@
+.tariffs {
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+}
+
+.tariffs__button {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

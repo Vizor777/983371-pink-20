@@ -1,0 +1,7 @@
+.header__button {
+  &--mobile {
+    @media (min-width: $desktop-width) {
+      display: none;
+    }
+  }
+}

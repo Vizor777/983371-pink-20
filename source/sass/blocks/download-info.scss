@@ -3,10 +3,30 @@
   font-family: $main-font;
   font-style: normal;
   color: $white;
+
+  @media (min-width: $tablet-width) {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 
 .download-info__description {
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
+}
+
+.download-info--nomobile {
+  display: none;
+  @media (min-width: $tablet-width) {
+    display: block;
+    width: 280px;
+    // grid-row-start: 2;
+    // grid-row-end: 4;
+  }
+}
+
+.download-info--mobile {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
