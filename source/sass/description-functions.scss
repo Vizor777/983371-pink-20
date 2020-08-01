@@ -1,6 +1,9 @@
 .description-functions {
   background-color: $smoky-white;
-  background-image: url("../../img/iphone-screen-mobile@1x.png");
+}
+
+.description-functions__wrapp {
+  background-image: url("../img/iphone-screen-mobile@1x.png");
   background-repeat: no-repeat;
 
   @media (min-width: $desktop-width) {
@@ -21,21 +24,21 @@
 .description-functions__item {
   &--back-up {
     @media (min-width: $desktop-width) {
-      background-image: url("../../img/iphone-screen-1-tablet@1x.png");
+      background-image: url("../img/iphone-screen-1-tablet@1x.png");
       background-repeat: no-repeat;
     }
   }
 
   &--back-cheange {
     @media (min-width: $desktop-width) {
-      background-image: url("../../img/iphone-screen-2-tablet@1x.png");
+      background-image: url("../img/iphone-screen-2-tablet@1x.png");
       background-repeat: no-repeat;
     }
   }
 
   &--back-find {
     @media (min-width: $desktop-width) {
-      background-image: url("../../img/iphone-screen-3-tablet@1x.png");
+      background-image: url("../img/iphone-screen-3-tablet@1x.png");
       background-repeat: no-repeat;
     }
   }

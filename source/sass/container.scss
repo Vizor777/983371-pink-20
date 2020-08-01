@@ -5,13 +5,10 @@
 
   @media (min-width: $tablet-width) {
     width: 620px;
-    margin: 0 auto;
-    padding: 0 20px;
   }
 
   @media (min-width: $desktop-width) {
     width: 938px;
-    margin: 0 auto;
     padding: 0 131px;
   }
 }
