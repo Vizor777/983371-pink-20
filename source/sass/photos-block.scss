@@ -1,0 +1,134 @@
+.photos-block {
+  font-family: $main-font;
+  font-style: normal;
+}
+
+.photos-block__list {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+.photos-block__item {
+  list-style-type: none;
+
+  @media (min-width: $tablet-width) {
+    width: 300px;
+  }
+
+  &--panorama-day {
+    @media (min-width: $tablet-width) {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
+
+.photos-block__user-photo {
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+
+  &--panorama-day {
+    min-width: 320px;
+  }
+
+  @media (min-width: $tablet-width) {
+    min-width: 300px;
+
+    &--panorama-day {
+      min-width: 660px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &--panorama-day {
+      min-width: 1200px;
+    }
+  }
+}
+
+.photos-block__comment {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $granite;
+
+  @media (min-width: $tablet-width) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+.photos-block__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: $granite;
+}
+
+.photos-block__time {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  color: $granite;
+}
+
+.photos-block__count-like {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: $red;
+}
+
+.photos-block__text-wrap {
+  width: 240px;
+  background-color: $smoky-white;
+
+  &--panorama-day {
+    @media (min-width: $tablet-width) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 260px;
+
+    &--panorama-day {
+      width: 580px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 300px;
+    padding: 0;
+
+    &--panorama-day {
+      width: 940px;
+    }
+  }
+}
+
+.photos-block__like-wrap {
+  @media (min-width: $tablet-width) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}

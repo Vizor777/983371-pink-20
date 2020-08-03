@@ -1,0 +1,31 @@
+.download-info {
+  background-color: #1d2631;
+  font-family: $main-font;
+  font-style: normal;
+  color: $white;
+
+  @media (min-width: $tablet-width) {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+.download-info__description {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.download-info--nomobile {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    width: 280px;
+  }
+}
+
+.download-info--mobile {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

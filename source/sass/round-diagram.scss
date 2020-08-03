@@ -1,0 +1,34 @@
+.round-diagram {
+  display: none;
+  font-family: $main-font;
+  font-style: normal;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+.round-diagram__timer {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.round-diagram__header {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.round-diagram__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $granite;
+
+  &--pink-color {
+    text-decoration: underline;
+    color: $red;
+  }
+}
