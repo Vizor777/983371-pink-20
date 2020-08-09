@@ -1,6 +1,7 @@
 .сontact-information {
   font-family: $main-font;
   font-style: normal;
+  text-align: center;
 }
 
 .сontact-information__text {
@@ -15,6 +16,11 @@
   font-size: 18px;
   line-height: 25px;
   color: $granite;
+  margin-bottom: 0px;
+}
+
+.сontact-information__info {
+  margin-bottom: 31px;
 }
 
 .сontact-information__phone-number,
@@ -25,4 +31,5 @@
   line-height: 33px;
   color: $red;
   text-decoration: none;
+  margin: 0;
 }

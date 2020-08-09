@@ -1,24 +1,41 @@
 .popup-menu {
-  background-color: $granite;
+  background-color: rgba($color: $black, $alpha: 0.3);
+}
+
+.popup-menu__wrapper{
+  padding: 21px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 1px 0px $black;
 }
 
 .popup-menu__list {
+  margin: 0;
+  padding: 0;
+
+  &--disabled {
+    display: none;
+  }
   @media (min-width: $desktop-width) {
     display: flex;
   }
 }
 
 .popup-menu__item {
+  text-align: center;
+  padding: 16px 6.25%;
   list-style-type: none;
+  box-shadow: 0px 1px 0px $black, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
 }
 
 .popup-menu__link {
+  display: block;
   text-decoration: none;
   font-family: $main-font;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 32px;
+  line-height: 31px;
   color: $white;
   text-transform: uppercase;
 }

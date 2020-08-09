@@ -1,4 +1,5 @@
 .body {
+  position: relative;
   min-width: 320px;
   margin: 0;
   padding: 0;
@@ -10,4 +11,8 @@
   @media (min-width: $desktop-width) {
     min-width: 1200px;
   }
+}
+
+.body-wrapper {
+  position: relative;
 }

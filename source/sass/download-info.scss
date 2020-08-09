@@ -3,16 +3,30 @@
   font-family: $main-font;
   font-style: normal;
   color: $white;
+  padding: 28px 6.25% 38px 6.25%;
 
   @media (min-width: $tablet-width) {
     background-color: rgba(0, 0, 0, 0);
   }
 }
 
+.download-info__list {
+  padding: 0 38px;
+  margin: 0;
+  margin-top: 32px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .download-info__description {
+  margin: 0;
+  margin-top: 28px;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
+  text-align: center;
 }
 
 .download-info--nomobile {

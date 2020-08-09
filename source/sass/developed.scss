@@ -1,8 +1,23 @@
 .developed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.developed__author {
+  display: inline-block;
+  text-align: center;
   font-family: $main-font;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   color: $granite;
+}
+
+.developed__link {
+  display: inline-block;
+  width: 27px;
+  height: 34px;
+  margin-left: 14px;
 }

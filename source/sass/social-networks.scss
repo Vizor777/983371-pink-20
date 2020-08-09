@@ -1,0 +1,43 @@
+.social-networks {
+  padding: 0 51px;
+}
+
+.social-networks__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-networks__item {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid $smoky-white;
+}
+
+.social-networks__link {
+  fill: $red;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.social-networks__tw {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+}
+
+.social-networks__fb {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.social-networks__yt {
+  position: absolute;
+  left: 19px;
+  top: 18px;
+}
