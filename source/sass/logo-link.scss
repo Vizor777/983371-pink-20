@@ -8,3 +8,25 @@
     margin: 40px auto 41px auto;
   }
 }
+
+.logo-link__img {
+  &--mobile {
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+  }
+  &--tablet {
+    display: none;
+
+    @media (min-width: 659px) and (max-width: 1199px) {
+      display: block;
+    }
+  }
+  &--desktop {
+    display: none;
+
+    @media (min-width: 1200px) {
+      display: block;
+    }
+  }
+}

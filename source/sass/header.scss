@@ -1,6 +1,10 @@
 .header {
   position: absolute;
   width: 100%;
+
+  @media (min-width: $tablet-width) {
+    min-height: 110px;
+  }
 }
 
 .header__button {
