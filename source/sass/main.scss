@@ -3,6 +3,8 @@
 
   @media (min-width: $tablet-width) {
     min-height: 729px;
+    display: flex;
+    flex-direction: column;
   }
 
   @media (min-width: $desktop-width) {
@@ -38,4 +40,24 @@
   margin: 0;
   padding-top: 95px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    width: 246px;
+    font-size: 40px;
+    line-height: 48px;
+    display: inline-block;
+    padding: 0 6.5% 0 6.5%;
+    margin-left: 0;
+    margin-top: 212px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 246px;
+    font-size: 50px;
+    line-height: 68px;
+    display: inline-block;
+    padding: 0 13.75% 0 13.75%;
+    margin-left: 0;
+    margin-top: 224px;
+  }
 }
