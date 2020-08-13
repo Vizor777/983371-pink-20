@@ -12,6 +12,13 @@
   background-position: 82px 547px;
   min-height: 830px;
 
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/iphone-screen-3-tablet@1x.png");
+    background-repeat: no-repeat;
+    background-position: 19px 146px;
+    min-height: 481px;
+  }
+
   @media (min-width: $desktop-width) {
     display: flex;
     background-image: none;
@@ -28,7 +35,7 @@
 }
 
 .description-functions__item {
-  margin-bottom: 43px;
+  padding-bottom: 47px;
 
   &--back-up {
     padding-top: 50px;
@@ -53,8 +60,8 @@
   }
 
   @media (min-width: $tablet-width) {
-    width: 310px;
-    margin-left: auto;
+    margin-left: 310px;
+    text-align: left;
   }
 }
 

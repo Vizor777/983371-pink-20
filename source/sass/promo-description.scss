@@ -1,10 +1,22 @@
+.promo-description {
+  @media (min-width: $tablet-width) {
+    margin-top: 58px;
+    margin-bottom: 47px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 77px;
+    margin-bottom: 72px;
+  }
+}
+
 .promo-description__tagline {
-  margin-top: 46px;
+  margin-top: 43px;
   font-family: $main-font;
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
-  line-height: 120%;
+  line-height: 29px;
   text-align: center;
   color: $granite;
 
@@ -16,5 +28,14 @@
   @media (min-width: $tablet-width) {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    line-height: 68px;
   }
 }
