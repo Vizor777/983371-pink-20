@@ -1,12 +1,20 @@
+.footer {
+  padding: 40px 6.25% 51px 6.25%;
+
+  @media (min-width: $tablet-width) {
+    padding: 56px 10.8% 55px 10.8%;
+  }
+}
+
 .footer__wrapp {
   @media (min-width: $tablet-width) {
-    min-height: 127px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   @media (min-width: $tablet-width) {
-    min-height: 197px;
+
   }
 }
