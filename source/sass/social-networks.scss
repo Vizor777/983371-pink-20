@@ -1,5 +1,10 @@
 .social-networks {
   padding: 0 51px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    min-width: 178px;
+  }
 }
 
 .social-networks__list {

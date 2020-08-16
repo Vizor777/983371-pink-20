@@ -13,6 +13,26 @@
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: transparent;
+
+  &--close {
+    width: 27px;
+    height: 2px;
+    transform: rotate(45deg);
+    background-color: white;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 27px;
+      height: 2px;
+      left: 0;
+      transform: rotate(90deg);
+      background-color: white;
+      position: absolute;
+    }
+  }
+
   &--mobile {
     @media (min-width: $desktop-width) {
       display: none;

@@ -2,23 +2,53 @@
   display: none;
   font-family: $main-font;
   font-style: normal;
+  margin-top: 54px;
+  margin-bottom: 100px;
 
   @media (min-width: $tablet-width) {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 238px 402px;
+    grid-template-rows: 1fr 100px 50px;
+
+    @media (min-width: $desktop-width) {
+      grid-template-columns: 320px 700px;
+      grid-template-rows: 1fr 1fr 50px;
+    }
   }
 }
 
 .round-diagram__timer {
   grid-row-start: 1;
   grid-row-end: 4;
+  width: 238px;
+  height: 276px;
+
+  @media (min-width: $desktop-width) {
+    width: 298px;
+    height: 345px;
+  }
 }
 
 .round-diagram__header {
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
+  margin: 0;
+  margin-top: 46px;
+  margin-left: 72px;
+  margin-bottom: 10px;
+
+  @media (min-width: $desktop-width) {
+    line-height: 30px;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+.description-functions__br-desk {
+  display: none;
 }
 
 .round-diagram__text {
@@ -26,9 +56,24 @@
   font-size: 14px;
   line-height: 24px;
   color: $granite;
+  margin: 0;
+  margin-left: 72px;
 
   &--pink-color {
     text-decoration: underline;
     color: $red;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 18px;
+    line-height: 30px;
+
+    br {
+      display: none;
+    }
+
+    .description-functions__br-desk {
+      display: block;
+    }
   }
 }

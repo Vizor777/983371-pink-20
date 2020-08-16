@@ -1,5 +1,9 @@
 .popup-menu {
   background-color: rgba($color: $black, $alpha: 0.3);
+
+  @media (min-width: $desktop-width) {
+    min-height: 110px;
+  }
 }
 
 .popup-menu__wrapper{
@@ -10,6 +14,7 @@
 
   @media (min-width: $desktop-width) {
     padding: 27px 130px;
+    box-shadow: none;
   }
 }
 
@@ -24,6 +29,8 @@
   &--desktop {
     display: flex;
     min-width: 700px;
+    margin-top: 16px;
+
     @media (max-width: $desktop-width) {
       display: none;
     }
@@ -39,7 +46,6 @@
   &--desktop {
     box-shadow: none;
     padding: 0;
-    padding-top: 24px;
     padding-left: 79px;
   }
 }

@@ -4,6 +4,7 @@
   background-size: contain;
   background-color: $smoky-white;
   text-align: center;
+  position: relative;
 }
 
 .description-functions__wrapp {
@@ -15,7 +16,7 @@
   @media (min-width: $tablet-width) {
     background-image: url("../img/iphone-screen-3-tablet@1x.png");
     background-repeat: no-repeat;
-    background-position: 19px 146px;
+    background-position: 19px 0;
     min-height: 481px;
   }
 
@@ -32,36 +33,57 @@
   font-size: 18px;
   line-height: 24px;
   color: $black;
+  margin-top: 0;
+  margin-bottom: 18px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 .description-functions__item {
-  padding-bottom: 47px;
+  padding-bottom: 32px;
 
   &--back-up {
-    padding-top: 50px;
+    padding-top: 62px;
     @media (min-width: $desktop-width) {
-      background-image: url("../img/iphone-screen-1-tablet@1x.png");
+      background-image: url("../img/iphone-screen-1-desktop@1x.png");
       background-repeat: no-repeat;
+      background-size: auto 310px;
+      background-position: top center;
+      padding-top: 360px;
     }
   }
 
   &--back-cheange {
     @media (min-width: $desktop-width) {
-      background-image: url("../img/iphone-screen-2-tablet@1x.png");
+      background-image: url("../img/iphone-screen-2-desktop@1x.png");
       background-repeat: no-repeat;
+      background-size: auto 310px;
+      background-position: top center;
+      padding-top: 360px;
     }
   }
 
   &--back-find {
     @media (min-width: $desktop-width) {
-      background-image: url("../img/iphone-screen-3-tablet@1x.png");
+      background-image: url("../img/iphone-screen-3-desktop@1x.png");
       background-repeat: no-repeat;
+      background-size: auto 310px;
+      background-position: top center;
+      padding-top: 360px;
     }
   }
 
   @media (min-width: $tablet-width) {
     margin-left: 310px;
     text-align: left;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 0;
+    text-align: center;
   }
 }
 
@@ -72,4 +94,47 @@
   font-size: 14px;
   line-height: 24px;
   color: $granite;
+  margin: 0;
+
+  @media (max-width: $tablet-width) {
+    .description-functions__br-desk, .description-functions__br {
+      display: none;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 309px;
+
+    br {
+      display: none;
+    }
+    .description-functions__br {
+      display: block;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    display: inline-block;
+    width: 243px;
+    font-size: 18px;
+    line-height: 30px;
+
+    br, .description-functions__br {
+      display: none;
+    }
+    .description-functions__br-desk {
+      display: block;
+    }
+  }
+}
+
+.description-functions__blur {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+  width: 300px;
+  height: 17px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 49.8%, rgba(0, 0, 0, 0) 93.23%);
+  opacity: 0.3;
+  filter: blur(4px);
 }

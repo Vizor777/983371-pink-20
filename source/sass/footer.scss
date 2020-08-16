@@ -1,5 +1,12 @@
 .footer__wrapp {
   @media (min-width: $tablet-width) {
+    min-height: 127px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width: $tablet-width) {
+    min-height: 197px;
   }
 }

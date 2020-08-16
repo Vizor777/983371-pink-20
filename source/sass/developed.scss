@@ -2,6 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
+  margin-top: 38px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
 }
 
 .developed__author {
