@@ -44,6 +44,8 @@
 
   &--panorama-day {
     min-width: 320px;
+    min-height: 137px;
+    width: 100%;
   }
 
   @media (min-width: $tablet-width) {
@@ -51,12 +53,16 @@
 
     &--panorama-day {
       min-width: 660px;
+      min-height: 509px;
+      width: 100%;
     }
   }
 
   @media (min-width: $desktop-width) {
     &--panorama-day {
       min-width: 1200px;
+      min-height: 506px;
+      width: 100%;
     }
   }
 }
@@ -66,6 +72,8 @@
   font-size: 14px;
   line-height: 24px;
   color: $granite;
+  margin: 0 0 12px 0;
+  min-width: 253px;
 
   @media (min-width: $tablet-width) {
     grid-column-start: 1;
@@ -88,15 +96,20 @@
 }
 
 .photos-block__count-like {
+  position: relative;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
   color: $red;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 18px;
 }
 
 .photos-block__text-wrap {
   width: 240px;
   background-color: $smoky-white;
+  margin-bottom: 20px;
 
   &--panorama-day {
     @media (min-width: $tablet-width) {
@@ -125,10 +138,24 @@
 }
 
 .photos-block__like-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 11px;
+
   @media (min-width: $tablet-width) {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
   }
+}
+
+.photos-block__wrapp {
+  padding-top: 18px;
+}
+
+.photos-block__heart {
+  fill: $red;
 }
