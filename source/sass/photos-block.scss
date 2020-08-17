@@ -18,6 +18,7 @@
 }
 
 .photos-block__item {
+  position: relative;
   list-style-type: none;
 
   @media (min-width: $tablet-width) {
@@ -28,6 +29,7 @@
     @media (min-width: $tablet-width) {
       width: 100%;
       margin: 0 auto;
+      margin-bottom: 50px;
     }
 
     @media (min-width: $desktop-width) {
@@ -110,20 +112,20 @@
   width: 240px;
   background-color: $smoky-white;
   margin-bottom: 20px;
+  min-height: 121px;
+
+  @media (min-width: $tablet-width)  {
+    min-height: 155px;
+  }
 
   &--panorama-day {
     @media (min-width: $tablet-width) {
+      width: 560px;
+      padding-left: 30px;
+      padding-right: 30px;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-    }
-  }
-
-  @media (min-width: $tablet-width) {
-    width: 260px;
-
-    &--panorama-day {
-      width: 580px;
+      grid-template-rows: 50px 70px;
     }
   }
 
@@ -142,13 +144,13 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 0px;
-  padding-bottom: 11px;
+  margin-left: auto;
 
   @media (min-width: $tablet-width) {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
   }
 }
 
@@ -158,4 +160,59 @@
 
 .photos-block__heart {
   fill: $red;
+
+  &--disabled {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: none;
+
+    &--disabled {
+      display: block;
+      margin-left: 16px;
+    }
+  }
+}
+
+.photos-block__user-photo {
+  position: relative;
+}
+
+.photos-block__panorama-day {
+  z-index: 9999;
+  position: absolute;
+  left: 50%;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  width: 140px;
+  height: 36px;
+  background-color: $red;
+  color: $smoky-white;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    left: 75.76%;
+    top: 57px;
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 77.5%;
+    top: 54px;
+  }
+}
+
+.photos-block__panorama-day-text {
+  margin: 0;
+  padding-top: 7px;
+}
+
+.photos-block__comment-br {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
